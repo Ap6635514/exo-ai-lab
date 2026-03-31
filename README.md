@@ -1,56 +1,94 @@
-# 🌌 Exoplanet Detection using CNN
+# 🪐 Exoplanet Detection using CNN
 
-This project simulates star light curves and uses a Convolutional Neural Network (CNN) to detect exoplanet transits.
-
----
-
-## 🔭 Overview
-
-The model analyzes brightness variations in stars and detects dips caused by planets passing in front of them (transits).
+A Deep Learning project that detects exoplanets by analyzing stellar light curves.
 
 ---
 
-## ⚙️ Features
-
-- Synthetic light curve generation  
-- Multiple dips (planets)  
-- Fake dips (false positives)  
-- Stellar noise & variability  
-- CNN-based detection  
+## 🌌 Overview
+When a planet passes in front of a star, it causes a small dip in brightness.  
+This project uses a Convolutional Neural Network (CNN) to detect these dips.
 
 ---
 
-## 🤖 Model
+## 🧠 Problem Statement
+Detecting exoplanets manually from light curves is extremely difficult due to:
+- Noise in data
+- Small signal variations
+- False positives
 
-- Conv1D neural network (PyTorch)
-- Detects patterns in noisy time-series data
+---
+
+## 💡 Solution
+This project applies Deep Learning (CNN) to automatically identify patterns  
+in time-series data and detect possible exoplanet transits.
+
+---
+
+## ⚙️ How It Works
+1. Generate synthetic light curve data
+2. Add noise and variability
+3. Train CNN model on time-series signals
+4. Detect transit patterns
 
 ---
 
 ## 📊 Results
-
-- Accuracy: ~0.67 
-- Handles noisy and complex signals  
-
----
-
-## 📸 Output
-![output](Screenshot_2026-03-21_17-23-37.png)
-
+- Accuracy: **67%**
+- Handles noisy signals
+- Successfully detects basic transit patterns
 
 ---
 
-## 🔧 Tech Stack
-
-- Python  
-- NumPy  
-- PyTorch  
-- Matplotlib  
+## ⚠️ Important Note
+This project uses **synthetic data** and serves as a proof-of-concept.  
+Performance may vary on real astronomical datasets.
 
 ---
 
-## 🚀 How to Run
+## 📈 Output
+![Output](output.png)
 
-```bash
-pip install -r requirements.txt
-python main.py
+---
+
+## 🧰 Tech Stack
+- Python
+- NumPy
+- PyTorch
+- Matplotlib
+
+---
+
+## 🧠 My Approach
+- Focused on signal pattern recognition
+- Simulated realistic noise conditions
+- Used CNN for time-series classification
+
+---
+
+## ⚠️ Limitations
+- Trained on synthetic data only
+- Lower accuracy due to noise complexity
+- Needs real-world dataset validation
+
+---
+
+## 🔮 Future Improvements
+- Use NASA Kepler / TESS datasets
+- Improve model using LSTM / Hybrid models
+- Increase dataset size
+- Apply noise reduction techniques
+
+---
+
+## 🚀 Why This Project Matters
+Exoplanet discovery is one of the most exciting areas in astronomy.  
+Automating detection using AI can significantly speed up discoveries.
+
+---
+
+## 🙋 About Me
+A Class 12 student exploring the intersection of Astronomy and AI.
+
+---
+
+⭐ Star this repo if you found it interesting!
