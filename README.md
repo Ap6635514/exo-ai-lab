@@ -19,7 +19,7 @@ Detecting exoplanets manually from light curves is extremely difficult due to:
 ---
 
 ## 💡 Solution
-This project applies Deep Learning (CNN) to automatically identify patterns  
+This project applies Deep Learning (CNN) to identify patterns automatically  
 in time-series data and detect possible exoplanet transits.
 
 ---
@@ -27,7 +27,7 @@ in time-series data and detect possible exoplanet transits.
 ## ⚙️ How It Works
 1. Generate synthetic light curve data
 2. Add noise and variability
-3. Train CNN model on time-series signals
+3. Train a CNN model on time-series signals
 4. Detect transit patterns
 
 ---
@@ -36,6 +36,33 @@ in time-series data and detect possible exoplanet transits.
 - Accuracy: **67%**
 - Handles noisy signals
 - Successfully detects basic transit patterns
+
+---
+
+## SAMPLE LIGHT KURVE
+<img width="639" height="520" alt="image" src="https://github.com/user-attachments/assets/33d9c102-cbcc-4bee-ae1c-9021df909f9c" />
+ 
+ THIS IS SIMULATED DATA 
+
+---
+
+## 📊 Light Curve Analysis
+
+This graph shows sample stellar light curves used in the model.
+
+- The **blue line (Planet)** represents a star with an orbiting exoplanet.
+- The **orange line (No Planet)** represents a star without any planetary transit.
+
+### 🔍 Key Observation:
+- When a planet passes in front of a star, it causes a **slight dip in brightness** (called a transit).
+- These dips are often very small and hidden within noise.
+- The model learns to detect these subtle patterns.
+
+### 🧠 Insight:
+Even though both signals appear noisy and similar, the CNN is trained to identify  
+hidden patterns that indicate the presence of an exoplanet.
+
+This demonstrates the challenge of exoplanet detection and the importance of AI in analyzing time-series astronomical data.
 
 ---
 
@@ -82,7 +109,7 @@ Performance may vary on real astronomical datasets.
 
 ## 🚀 Why This Project Matters
 Exoplanet discovery is one of the most exciting areas in astronomy.  
-Automating detection using AI can significantly speed up discoveries.
+Automating detection with AI can significantly accelerate discoveries.
 
 ---
 
