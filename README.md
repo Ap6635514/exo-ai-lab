@@ -42,7 +42,7 @@ in time-series data and detect possible exoplanet transits.
 ## SAMPLE LIGHT KURVE
 <img width="639" height="520" alt="image" src="https://github.com/user-attachments/assets/33d9c102-cbcc-4bee-ae1c-9021df909f9c" />
  
- THIS IS SIMULATED DATA 
+ - THIS IS SIMULATED DATA 
 
 ---
 
